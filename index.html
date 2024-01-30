@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Linking Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Linking custion CSS files -->
+  <link rel="stylesheet" href="./public/styles/style.css">
+  <link rel="stylesheet" href="./public/styles/responsive.css">
+  <!-- Linking font-awesome file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Rohan Basnet | Notifications page</title>
+</head>
+
+<body>
+  <main id="main">
+    <div class="wrapper block w-fit">
+      <div class="container w-full m-auto md:w-7/12 overflow-hidden p-8">
+        <div class="top-section flex justify-between items-center pb-7">
+          <div class="notification_count flex">
+            <h1>Notifications</h1>
+            <div class="box-count flex items-center justify-center">
+              <p id="count">0</p>
+            </div>
+          </div>
+          <div class="reset-button">
+            <button id="check-btn">Mark all as read</button>
+          </div>
+        </div>
+        <div class="active_notification grid grid-col-3 gap-4">
+          <div class="notification-box flex gap-7 items-center p-3 rounded-md">
+            <div class="left-inbox">
+              <img class="img" src="./assets/images/avatar-mark-webber.webp" alt="mark webber profile pic">
+            </div>
+            <div class="right-inbox flex flex-col">
+              <div class="info">
+                <h2 class="inline pr-1">Mark Webber</h2>
+                <p class="inline">reacted to your recent post<span class="pl-1">My first tournament today! <i
+                      class="fa-solid fa-circle"></i></span></p>
+              </div>
+              <div class="time">
+                <p>1m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="notification-box flex gap-7 items-center p-3 rounded-md">
+            <div class="left-inbox">
+              <img class="img" src="./assets/images/avatar-angela-gray.webp" alt="angela gray profile pic">
+            </div>
+            <div class="right-inbox flex flex-col">
+              <div class="info">
+                <h2 class="inline pr-1">Angela Gray</h2>
+                <p class="inline">followed you<span class="pl-1"><i class="fa-solid fa-circle"></i></span></p>
+              </div>
+              <div class="time">
+                <p>5m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="notification-box flex gap-7 items-center p-3 rounded-md">
+            <div class="left-inbox">
+              <img class="img" src="./assets/images/avatar-jacob-thompson.webp" alt="jacob thompson profile pic">
+            </div>
+            <div class="right-inbox flex flex-col">
+              <div class="info">
+                <h2 class="inline pr-1">Jacob Thompson</h2>
+                <p class="inline">has joined your group<span class="pl-1">Chess Club <i
+                      class="fa-solid fa-circle"></i></span></p>
+              </div>
+              <div class="time">
+                <p>1 day ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 
+  Rizky Hasanuddin sent you a private message
+  5 days ago
+  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+  I'm already having lots of fun and improving my game.
+
+  Kimberly Smith commented on your picture
+  1 week ago
+
+  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
+  2 weeks ago
+
+  Anna Kim left the group Chess Club
+  2 weeks ago -->
+
+
+  <!-- Linking jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Linking JS file -->
+  <script src="./public/JS/app.js"></script>
+</body>
+
+</html>

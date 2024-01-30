@@ -1,0 +1,115 @@
+/* LINKS */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS VARIABLES */
+:root {
+    /* Font Family*/
+    --PRIMARY-FONT: 'Plus Jakarta Sans', sans-serif;
+
+    /* Font Size */
+    --PARAH-SIZE: 16px;
+
+    /* Primary Color */
+    --RED: hsl(1, 90%, 64%);
+    --BLUE: hsl(219, 85%, 26%);
+
+    /* Neutral Color */
+    --WHITE: hsl(0, 0%, 100%);
+    --GRAYISHBLUE: hsl(219, 14%, 63%);
+    --GRAYISHBLUE-LIGHT-0: hsl(210, 60%, 98%);
+    --GRAYISHBLUE-LIGHT-1: hsl(211, 68%, 94%);
+    --GRAYISHBLUE-LIGHT-2: hsl(205, 33%, 90%);
+    --GRAYISHBLUE-DARK-1: hsl(219, 12%, 42%);
+    --GRAYISHBLUE-DARK-2: hsl(224, 21%, 14%);
+
+    /* Font Weight */
+    --WEIGHT-1: 500;
+    --WEIGHT-2: 800;
+}
+
+/* UTILS */
+.img {
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/* GENERAL STYLES */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* STYLING MAIN SECTION */
+#main {
+    width: 100vw;
+    background: var(--GRAYISHBLUE-LIGHT-0);
+}
+
+/* STYLING CONTAINER SECTION */
+.active_notification {
+    font-family: var(--PRIMARY-FONT);
+}
+
+.container {
+    background: var(--WHITE);
+}
+
+/* Styling top section */
+.notification_count h1 {
+    font-size: 1.5rem;
+    font-weight: var(--WEIGHT-2);
+    font-family: var(--PRIMARY-FONT);
+}
+
+.box-count {
+    background: var(--BLUE);
+    padding: 0 13px;
+    font-size: 1.4rem;
+    font-weight: var(--WEIGHT-1);
+    color: var(--WHITE);
+    margin-left: .5rem;
+    border-radius: .3em;
+}
+
+.btn {
+    font-weight: var(--WEIGHT-1);
+    color: var(--GRAYISHBLUE-DARK-1);
+    cursor: pointer;
+}
+
+/* Styling notfication box section */
+.notification-box {
+    background: var(--GRAYISHBLUE-LIGHT-2);
+}
+
+.right-inbox h2 {
+    font-weight: var(--WEIGHT-2);
+}
+
+.right-inbox p {
+    color: var(--GRAYISHBLUE-DARK-1);
+    font-weight: var(--WEIGHT-1);
+}
+
+.right-inbox p>span {
+    color: var(--GRAYISHBLUE-DARK-2);
+    font-weight: var(--WEIGHT-2);
+}
+
+.right-inbox p>span i {
+    transform: scale(.6);
+    color: var(--RED);
+}
+
+.time p {
+    color: var(--GRAYISHBLUE);
+}
