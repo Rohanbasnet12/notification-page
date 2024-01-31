@@ -1,8 +1,6 @@
 # Notification Page
 
-![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
-
-Welcome to the Notification Page repository!
+![Design preview for the Notifications page](./design/desktop-preview.jpg)
 
 ## Project Overview
 
