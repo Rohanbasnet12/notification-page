@@ -1,6 +1,6 @@
 # Notification Page
 
-![Design preview for the Notifications page](./design/desktop-preview.jpg)
+![Design preview for the Notifications page](./design/desktop-design.jpg)
 
 ## Project Overview
 
