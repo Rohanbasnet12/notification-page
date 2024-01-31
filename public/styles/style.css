@@ -46,6 +46,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* STYLING MAIN SECTION */
@@ -61,6 +62,7 @@ body {
 
 .container {
     background: var(--WHITE);
+    box-shadow: .5em .5em 1.42em #9a9a9a67;
 }
 
 /* Styling top section */
@@ -112,4 +114,9 @@ body {
 
 .time p {
     color: var(--GRAYISHBLUE);
+}
+
+/* Styling checked notification */
+.checked_notification {
+    font-family: var(--PRIMARY-FONT);
 }
